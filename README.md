@@ -32,5 +32,3 @@ Follow these steps to set up the PredictIQ Sales Insight Engine:
 ### Install Dependencies:
 
 Install all required Python packages using pip
-tiq_sales_app.pyt
-
