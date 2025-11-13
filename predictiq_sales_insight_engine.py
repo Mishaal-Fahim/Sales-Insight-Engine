@@ -27,9 +27,17 @@ MODEL_FILE = "xgboost_sales_model.pkl"
 uploaded_file = st.file_uploader("📂 Upload your sales dataset (CSV)", type=["csv"])
 
 if uploaded_file:
-    df = pd.read_csv(uploaded_file)
+    try:
+        # Try UTF-8 first
+        df = pd.read_csv(uploaded_file)
+    except UnicodeDecodeError:
+        # Reset file pointer
+        uploaded_file.seek(0)
+        # Fallback to ISO-8859-1
+        df = pd.read_csv(uploaded_file, encoding='ISO-8859-1')
     st.subheader("📋 Data Preview")
     st.dataframe(df.head())
+
 
     # ------------------------------------------------
     # 3️⃣ Data Preprocessing
