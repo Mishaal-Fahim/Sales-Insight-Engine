@@ -26,7 +26,9 @@ PredictIQ is a **Streamlit‑based sales forecasting application** powered by **
 git clone https://github.com/your-username/predictiq-sales-insight.git
 cd predictiq-sales-insight
 
-## 💻 Install Dependencies
+---
+
+### Install Dependencies
 
 Install all required Python packages using `pip`:
 
