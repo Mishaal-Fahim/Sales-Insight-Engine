@@ -1,6 +1,6 @@
 # 🤖 PredictIQ: Sales Insight Engine
 
-PredictIQ is a **Streamlit‑based sales forecasting application** powered by **XGBoost**. It empowers sales teams and analysts to upload historical sales data, visualize trends, train predictive models, and generate **future sales forecasts** for 3–6 months ahead.
+PredictIQ is a **Streamlit‑based sales forecasting application** powered by **XGBoost**. It empowers sales teams and analysts to upload historical sales data, visualize trends, train predictive models, and generate **future sales forecasts** for 3–6 months ahead. Use the Sample Sales Data from Kaggle, which includes columns like ORDERDATE, SALES, QUANTITYORDERED, PRICEEACH, MSRP, PRODUCTLINE, DEALSIZE, COUNTRY, and TERRITORY.
 
 ---
 
@@ -32,3 +32,11 @@ Follow these steps to set up the PredictIQ Sales Insight Engine:
 ### Install Dependencies:
 
 Install all required Python packages using pip
+
+---
+
+4. **Upload Your Dataset**
+
+- The app will prompt you to upload a CSV file containing your sales data.  
+- Suggested dataset for testing: [Sample Sales Data on Kaggle](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data)  
+- Required columns: `ORDERDATE`, `SALES`, `QUANTITYORDERED`, `PRICEEACH`, `MSRP`, `PRODUCTLINE`, `DEALSIZE`, `COUNTRY`, `TERRITORY`
