@@ -20,18 +20,27 @@ PredictIQ is a **Streamlit‑based sales forecasting application** powered by **
 
 ## 📂 Installation
 
+Follow these steps to set up the PredictIQ Sales Insight Engine:
+
 1. **Clone the repository**
 
-```bash
-git clone https://github.com/your-username/predictiq-sales-insight.git
-cd predictiq-sales-insight
+   Open your terminal and run:
 
----
+   ```bash
+   git clone https://github.com/your-username/predictiq-sales-insight.git
+   cd predictiq-sales-insight
+Install Dependencies
 
-### Install Dependencies
+Install all required Python packages using pip:
 
-Install all required Python packages using `pip`:
-
-```bash
+bash
+Copy code
 pip install -r requirements.txt
+Run the Streamlit App
+
+Launch the app with:
+
+bash
+Copy code
+streamlit run predictiq_sales_app.pyt
 
