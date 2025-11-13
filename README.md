@@ -29,18 +29,11 @@ Follow these steps to set up the PredictIQ Sales Insight Engine:
    ```bash
    git clone https://github.com/your-username/predictiq-sales-insight.git
    cd predictiq-sales-insight
-Install Dependencies
+### Install Dependencies:
 
-Install all required Python packages using pip:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the Streamlit App
-
-Launch the app with:
+Install all required Python packages using pip
 
 bash
-Copy code
+
 streamlit run predictiq_sales_app.pyt
 
